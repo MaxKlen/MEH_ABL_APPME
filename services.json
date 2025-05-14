@@ -1,0 +1,182 @@
+[
+  {
+    "id": "abl-mws-001",
+    "name": "Marine Warranty Survey",
+    "segment": "abl",
+    "businessLine": "marine-warranty",
+    "description": "Independent third-party technical review and approval of high-value and/or high-risk marine operations and transportation projects.",
+    "lifecycleStages": ["construction", "operations"],
+    "keyFeatures": [
+      "Risk assessment and mitigation",
+      "Document review and approval",
+      "On-site attendance and verification",
+      "Incident investigation"
+    ],
+    "relatedServices": ["abl-mc-001", "longitude-ma-001"]
+  },
+  {
+    "id": "abl-mc-001",
+    "name": "Marine Consultancy",
+    "segment": "abl",
+    "businessLine": "marine-consultancy",
+    "description": "Specialized marine consultancy services for offshore and marine operations, including technical advisory, risk assessment, and project support.",
+    "lifecycleStages": ["concept", "feasibility", "development", "construction", "operations"],
+    "keyFeatures": [
+      "Technical advisory",
+      "Risk assessment",
+      "Project support",
+      "Operational planning"
+    ],
+    "relatedServices": ["abl-mws-001", "longitude-na-001"]
+  },
+  {
+    "id": "abl-la-001",
+    "name": "Loss Adjusting",
+    "segment": "abl",
+    "businessLine": "loss-adjusting",
+    "description": "Independent loss adjusting services for marine and energy claims, including causation analysis, quantum assessment, and claims management.",
+    "lifecycleStages": ["operations", "decommissioning"],
+    "keyFeatures": [
+      "Causation analysis",
+      "Quantum assessment",
+      "Claims management",
+      "Expert witness services"
+    ],
+    "relatedServices": ["abl-mc-001"]
+  },
+  {
+    "id": "owc-wa-001",
+    "name": "Wind Resource Assessment",
+    "segment": "owc",
+    "businessLine": "wind-advisory",
+    "description": "Comprehensive assessment of wind resources for wind farm development, including measurement campaigns, data analysis, and energy yield predictions.",
+    "lifecycleStages": ["concept", "feasibility"],
+    "keyFeatures": [
+      "Measurement campaign design",
+      "Data analysis and validation",
+      "Energy yield prediction",
+      "Uncertainty assessment"
+    ],
+    "relatedServices": ["owc-oe-001", "owc-dd-001"]
+  },
+  {
+    "id": "owc-oe-001",
+    "name": "Owner's Engineering",
+    "segment": "owc",
+    "businessLine": "owners-engineering",
+    "description": "Technical support and oversight for wind farm owners throughout project development, construction, and operation phases.",
+    "lifecycleStages": ["development", "construction", "operations"],
+    "keyFeatures": [
+      "Technical specifications",
+      "Tender support",
+      "Construction monitoring",
+      "Technical due diligence"
+    ],
+    "relatedServices": ["owc-wa-001", "owc-dd-001"]
+  },
+  {
+    "id": "owc-dd-001",
+    "name": "Technical Due Diligence",
+    "segment": "owc",
+    "businessLine": "due-diligence",
+    "description": "Independent technical assessment of renewable energy projects for investors, lenders, and other stakeholders.",
+    "lifecycleStages": ["development", "construction", "operations"],
+    "keyFeatures": [
+      "Technical risk assessment",
+      "Contract review",
+      "Financial model validation",
+      "Performance analysis"
+    ],
+    "relatedServices": ["owc-wa-001", "owc-oe-001"]
+  },
+  {
+    "id": "agr-wm-001",
+    "name": "Well Management",
+    "segment": "agr",
+    "businessLine": "well-management",
+    "description": "Comprehensive well management services for oil and gas operators, including planning, execution, and operational support.",
+    "lifecycleStages": ["development", "construction", "operations"],
+    "keyFeatures": [
+      "Well planning and design",
+      "Drilling engineering",
+      "Operational support",
+      "Well intervention"
+    ],
+    "relatedServices": ["agr-rm-001", "agr-ss-001"]
+  },
+  {
+    "id": "agr-rm-001",
+    "name": "Reservoir Management",
+    "segment": "agr",
+    "businessLine": "reservoir-management",
+    "description": "Reservoir management services for optimizing hydrocarbon recovery, including reservoir modeling, simulation, and production optimization.",
+    "lifecycleStages": ["development", "operations"],
+    "keyFeatures": [
+      "Reservoir modeling",
+      "Production optimization",
+      "Field development planning",
+      "Reserves estimation"
+    ],
+    "relatedServices": ["agr-wm-001", "agr-ss-001"]
+  },
+  {
+    "id": "agr-ss-001",
+    "name": "Software Solutions",
+    "segment": "agr",
+    "businessLine": "software-solutions",
+    "description": "Specialized software solutions for well planning, drilling, and reservoir management, including iQx™ and P1™.",
+    "lifecycleStages": ["development", "construction", "operations"],
+    "keyFeatures": [
+      "Well planning software",
+      "Drilling management tools",
+      "Reservoir simulation",
+      "Data management"
+    ],
+    "relatedServices": ["agr-wm-001", "agr-rm-001"]
+  },
+  {
+    "id": "longitude-na-001",
+    "name": "Naval Architecture",
+    "segment": "longitude",
+    "businessLine": "naval-architecture",
+    "description": "Naval architecture services for vessel design, modification, and analysis, including stability, structural, and hydrodynamic assessments.",
+    "lifecycleStages": ["concept", "feasibility", "development"],
+    "keyFeatures": [
+      "Vessel design",
+      "Stability analysis",
+      "Structural assessment",
+      "Hydrodynamic analysis"
+    ],
+    "relatedServices": ["longitude-me-001", "longitude-aa-001"]
+  },
+  {
+    "id": "longitude-me-001",
+    "name": "Marine Engineering",
+    "segment": "longitude",
+    "businessLine": "marine-engineering",
+    "description": "Marine engineering services for offshore and marine structures, including design, analysis, and technical support.",
+    "lifecycleStages": ["concept", "feasibility", "development", "construction"],
+    "keyFeatures": [
+      "Structural design",
+      "Mooring analysis",
+      "Installation engineering",
+      "Technical support"
+    ],
+    "relatedServices": ["longitude-na-001", "longitude-aa-001"]
+  },
+  {
+    "id": "longitude-aa-001",
+    "name": "Advanced Analysis",
+    "segment": "longitude",
+    "businessLine": "advanced-analysis",
+    "description": "Advanced engineering analysis services, including finite element analysis, computational fluid dynamics, and multiphysics simulations.",
+    "lifecycleStages": ["concept", "feasibility", "development"],
+    "keyFeatures": [
+      "Finite element analysis",
+      "Computational fluid dynamics",
+      "Multiphysics simulations",
+      "Structural optimization"
+    ],
+    "relatedServices": ["longitude-na-001", "longitude-me-001"]
+  }
+]

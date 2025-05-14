@@ -1,0 +1,40 @@
+{
+  "name": "abl-group-services-catalog",
+  "version": "1.0.0",
+  "description": "ABL Group Services Catalog - Digital platform for accessing ABL Group's services and solutions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ABL Group",
+    "services",
+    "catalog",
+    "energy",
+    "maritime"
+  ],
+  "author": "ABL Group",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0",
+    "chart.js": "^3.7.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "ffmpeg-static": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "morgan": "^1.10.0",
+    "puppeteer": "^24.8.2",
+    "puppeteer-screen-recorder": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "concept",
+    "name": "Concept",
+    "description": "Initial project concept and idea generation",
+    "icon": "lightbulb",
+    "services": [
+      "abl-mc-001",
+      "owc-wa-001",
+      "longitude-na-001",
+      "longitude-me-001",
+      "longitude-aa-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Early Project Development Bundle",
+        "description": "Comprehensive services for early-stage project development",
+        "services": ["abl-mc-001", "owc-wa-001", "longitude-na-001"]
+      }
+    ]
+  },
+  {
+    "id": "feasibility",
+    "name": "Feasibility",
+    "description": "Assessment of project feasibility and viability",
+    "icon": "search",
+    "services": [
+      "abl-mc-001",
+      "owc-wa-001",
+      "longitude-na-001",
+      "longitude-me-001",
+      "longitude-aa-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Feasibility Study Bundle",
+        "description": "Comprehensive services for project feasibility assessment",
+        "services": ["owc-wa-001", "longitude-na-001", "longitude-aa-001"]
+      }
+    ]
+  },
+  {
+    "id": "development",
+    "name": "Development",
+    "description": "Project development and detailed design",
+    "icon": "drafting-compass",
+    "services": [
+      "abl-mc-001",
+      "owc-oe-001",
+      "owc-dd-001",
+      "agr-wm-001",
+      "agr-rm-001",
+      "agr-ss-001",
+      "longitude-na-001",
+      "longitude-me-001",
+      "longitude-aa-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Project Development Bundle",
+        "description": "Comprehensive services for project development phase",
+        "services": ["owc-oe-001", "owc-dd-001", "longitude-me-001"]
+      },
+      {
+        "name": "Oil & Gas Development Bundle",
+        "description": "Specialized services for oil and gas project development",
+        "services": ["agr-wm-001", "agr-rm-001", "agr-ss-001"]
+      }
+    ]
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "description": "Project construction and installation",
+    "icon": "hard-hat",
+    "services": [
+      "abl-mws-001",
+      "abl-mc-001",
+      "owc-oe-001",
+      "owc-dd-001",
+      "agr-wm-001",
+      "agr-ss-001",
+      "longitude-me-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Construction Assurance Bundle",
+        "description": "Quality assurance services for construction phase",
+        "services": ["abl-mws-001", "abl-mc-001", "owc-oe-001"]
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "name": "Operations",
+    "description": "Project operations and maintenance",
+    "icon": "cogs",
+    "services": [
+      "abl-mws-001",
+      "abl-mc-001",
+      "abl-la-001",
+      "owc-oe-001",
+      "owc-dd-001",
+      "agr-wm-001",
+      "agr-rm-001",
+      "agr-ss-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Operational Excellence Bundle",
+        "description": "Services to optimize operational performance",
+        "services": ["abl-mc-001", "owc-oe-001", "agr-rm-001"]
+      }
+    ]
+  },
+  {
+    "id": "decommissioning",
+    "name": "Decommissioning",
+    "description": "Project decommissioning and site restoration",
+    "icon": "recycle",
+    "services": [
+      "abl-la-001"
+    ],
+    "bundleRecommendations": [
+      {
+        "name": "Decommissioning Bundle",
+        "description": "Services for safe and efficient decommissioning",
+        "services": ["abl-la-001", "abl-mc-001"]
+      }
+    ]
+  }
+]
